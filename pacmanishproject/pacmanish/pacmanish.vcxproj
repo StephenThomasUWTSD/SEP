@@ -114,11 +114,17 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MapClass.cpp" />
     <ClCompile Include="PlayerClass.cpp" />
+    <ClCompile Include="TestControllerClass.cpp" />
+    <ClCompile Include="TestMapClass.cpp" />
+    <ClCompile Include="TestPlayerClass.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ControllerClass.h" />
     <ClInclude Include="MapClass.h" />
     <ClInclude Include="PlayerClass.h" />
+    <ClInclude Include="TestControllerClass.h" />
+    <ClInclude Include="TestMapClass.h" />
+    <ClInclude Include="TestPlayerClass.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
